@@ -31,7 +31,10 @@ Searching for flights from 2025-02-13 to 2025-02-23.
 - CSV file 'flight_deals.csv' created successfully with the destination flight details.
 
 ## Limitations
-- The origin airport is currently hardcoded as "SYD". Modify the script if you need a different origin.
+- The origin airport is currently hardcoded as "SYD"
+  ``` "originLocationCode": "SYD",  # Change the symbol at the top of the script
+  ```
+
 - The script is configured to search for one adult in ECONOMY class and returns prices in AUD.
 - Only a predefined list of destinations is supported. Update the destinations list in the script as needed.
 
