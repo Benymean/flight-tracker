@@ -33,7 +33,7 @@ Searching for flights from 2025-02-13 to 2025-02-23.
 ## Limitations
 - The origin airport is currently hardcoded as "SYD"
   ```
-  "originLocationCode": "SYD",  # Change the symbol at the top of the script
+  "originLocationCode": "SYD",  # Change the symbol in the params dictionary
   ```
 
 - The script is configured to search for one adult in ECONOMY class and returns prices in AUD.
