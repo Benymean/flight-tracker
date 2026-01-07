@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 class FlightSearch:
     def __init__(self):
-        self.OAUTH_URL = "https://test.api.amadeus.com/v1/security/oauth2/token"
+        self.OAUTH_URL = "https://test.api.amadeus.com/v1/security/oauth2/token" # free tier API Key for testing
         self.AMADEUS_API_KEY = "JOh1CBYaZXMIv26wjVNwH9PDDs56mLV8"
         self.AMADEUS_API_SECRET = "TUVmBGtr0pG8gULM"
         self.ACCESS_TOKEN = None
